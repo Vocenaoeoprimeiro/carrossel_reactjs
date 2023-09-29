@@ -1,0 +1,32 @@
+div.container{
+  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+div.container div.carrosselContainer{
+  cursor: grab;
+  overflow: hidden;
+}
+
+div.container div.carrossel{
+  display: flex;
+}
+
+div.carrossel div.image{
+  min-width: 400px;
+  min-height: 200px;
+  padding: 15px;
+}
+
+div.image img{
+  width: 100%;
+  height: 100%;
+  border: 2px solid #333333;
+  border-radius: 0.8;
+  pointer-events: none;
+}
